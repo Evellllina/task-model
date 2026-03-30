@@ -4,8 +4,6 @@ from src.exceptions import TaskValidationError
 
 
 def main():
-    """Главная функция демонстрации"""
-
     print("1. Создание задач")
     task1 = Task("T001", "Обработать заказ клиента #12345", priority=1)
     task2 = Task("T002", "Отправить уведомление пользователю", priority=3)
